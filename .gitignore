@@ -1,3 +1,13 @@
 Thumbs.db
 latex/resume.pdf
-imgs/compr/
+imgs/cmpr/
+cover-notes.md
+
+# latex
+latex/resume.aux
+latex/resume.fdb_latexmk
+latex/resume.fls
+latex/resume.log
+latex/resume.synctex.gz
+latex/resume.xdv
+latex/resume.out
