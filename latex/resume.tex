@@ -11,7 +11,6 @@
 %
 % Template license:
 % CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-%
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -21,7 +20,7 @@
 \documentclass[11pt, letterpaper]{awesome-cv}
 
 % Configure page margins with geometry
-\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1cm, footskip=.5cm}
 
 %%% Override a directory location for fonts(default: 'fonts/')
 \fontdir[fonts/]
@@ -51,6 +50,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Needed to divide into several files
 \usepackage{import}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    linkcolor=blue,
+    urlcolor=blue,
+    linkbordercolor=blue,       % hyperlink borders will be red
+    pdfborderstyle={/S/U/W 1}   % border style will be underline of width 1pt
+}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
