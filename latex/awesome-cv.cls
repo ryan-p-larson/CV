@@ -613,6 +613,32 @@
 }
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% BEGIN CUSTOM EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newenvironment{cvitemED}{
+\vspace{-6mm}
+\begin{center}
+  \setlength\tabcolsep{1ex}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} r L{15.2cm}}
+}{
+  \end{tabular*}
+\end{center}
+\vspace{-6mm}
+}
+
+% Define a line of cv information(skill)
+% Usage: \cvskillED{<type>}{<skillset>}
+\newcommand*{\cvskillED}[2]{
+	\skilltypestyle{#1} & \skillsetstyle{#2}
+  \\
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 %-------------------------------------------------------------------------------
 %                Commands for elements of Cover Letter
 %-------------------------------------------------------------------------------
