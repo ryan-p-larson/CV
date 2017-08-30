@@ -626,7 +626,7 @@
 }{
   \end{tabular*}
 \end{center}
-\vspace{-6mm}
+\vspace{-4mm}
 }
 
 % Define a line of cv information(skill)
