@@ -1,0 +1,125 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, letterpaper]{awesome-cv}
+
+% ADDED PACKAGES
+
+\usepackage{hyperref}
+
+\usepackage{epigraph}
+\setlength{\epigraphwidth}{.75\textwidth}
+\renewcommand{\epigraphflush}{center}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+\colorlet{awesome}{awesome-darknight}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    linkcolor=blue,
+    urlcolor=blue,
+    linkbordercolor=blue,       % hyperlink borders will be red
+    pdfborderstyle={/S/U/W 1}   % border style will be underline of width 1pt
+}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+%\setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+%\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+%%% Essentials
+\name{Ryan }{Larson}
+\mobile{(612) 220-2262}
+%%% Social
+\email{ryan-p-larson@uiowa.edu}
+\github{ryan-p-larson}
+\linkedin{ryanpatricklarson}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Company Recruitment Team}
+  {airbnb\\888 Brannan St\\San Francisco, CA 94103}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+
+% The title of the letter
+\lettertitle{Job Application for Data Visualization Engineer}
+
+% How the letter is opened
+\letteropening{\epigraph{A human being should be able to change a diaper, plan an invasion, butcher a hog, conn a ship, design a building, write a sonnet, balance accounts, build a wall, set a bone, comfort the dying, take orders, give orders, \textbf{cooperate}, \textbf{act alone}, \textbf{solve equations}, \textbf{analyze a new problem}, pitch manure, \textbf{program a computer}, cook a tasty meal, fight efficiently, die gallantly. \textbf{Specialization is for insects}.}{Robert A. Heinlein (\textbf{emphasis mine})}\medskip Dear Hiring Manager,}
+
+
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+\letterenclosure[Attached]{Resume}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations: to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Ryan Larson~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+%\lettersection{About Me}
+I'm enthused to write you about your Data Visualization Engineer position advertised on your website. My name is Ryan Larson and I come from an Informatics background, so much of what I studied is an intersection of computation, analytics, and design. And ever since I took an Information Visualization class, visualization has been a driving force in my education at the University of Iowa and beyond. For a deeper look at what I've learned \href{https://ryan-p-larson.github.io/college-sankey/large.html}{here is a visualization} of my college curriculum. I feel strongly that my interdisciplinary skillset is a good fit for your opening and I encourage you to take a look at \href{https://github.com/ryan-p-larson/CV}{my portfolio}.
+
+%\lettersection{Why Google?}
+Over time I've come to appreciate how visualization can be used. I've used visualization to create dashboards and make decisions, render infographics and convey messages, display maps, analyze new data, discover fake-news bots on Twitter, and find signal among noise. Throughout college I've completed two internships with ACT and have tried my hand at traditional analytics. During my senior year I started a 'Data team' at the school newspaper because I wanted editorial experience. And recently I co-authored a paper with a professor, where I derived publishable insights via charting.
+
+%\lettersection{Why Me?}
+I've highlighted portions of Heinlen's quote above because of how well it captures the Visualization Engineer role. There is more to visualization than the code that produces it, and there's more to Airbnb than its listings. Airbnb has soul to it, you even give back to the community. I keep up with your open-sourced Superset application and Medium postings, because I think what you're doing is interesting. I would relish the opportunity to discuss the position in more detail. Thank you for taking the time to read this.
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
