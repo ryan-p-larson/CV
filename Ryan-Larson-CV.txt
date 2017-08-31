@@ -1,0 +1,73 @@
+Ryan Larson
+(612) 220-2262
+ryan-p-larson@uiowa.edu
+www.github.com/ryan-p-larson
+www.linkedin.com/ryanpatricklarson
+
+Education
+University of Iowa
+BACHELOR OF ARTS (BA) IN INFORMATICS (HUMAN COMPUTER INTERACTION)
+Iowa City, IA
+Sep. 2013 - May 2017
+Minors Computer Science, Psychology.
+Classes Information Visualization, Knowledge Discovery, Database Management. See all in a visualization here.
+
+Skills
+Languages Python, Javascript, SQL, R.
+Methods Data Analysis, Data Visualization, Machine Learning (ML), Geographic Information Systems (GIS), Version Control (VC).
+Software D3.js, Pandas, Scikit-Learn, Tableau, OpenCV, Weka, ArcGIS, Adobe Illustrator.
+
+Experience
+Informatics Initiative
+UNDERGRADUATE RESEARCH
+Iowa City, IA
+Feb. 2017 - July 2017
+• Coauthored Understanding the Effect of the Travel Ban on Immigration Tweets in the United States, extending a class project, by working
+with Political Scientists, Geographers, and a Professor.
+• Unearthed hidden geographic trends in Twitter data by analyzing 500Gb of tweets from 97 languages in Python and ArcGIS.
+• Expanded civic engagement via leading a new Data Science summer workshop.
+
+IDEA Lab
+UNDERGRADUATE RESEARCH
+Iowa City, IA
+Sep. 2016 - Feb 2017
+• Implemented performant emotion and attention classifiers from prior literature (OpenCV, Raspberry Pi).
+• Designed and developed a physical anomaly predictor using athlete’s gyroscopic data (Scikit-Learn).
+
+Daily Iowan
+DATA JOURNALIST
+Iowa City, IA
+Sep. 2016 - Dec. 2016
+• Co-founded the Daily Iowan Data Journalism Team, by integrating quantitative information, journalists, and the school’s newspaper
+The Daily Iowan.
+• Published 4 monthly print and web projects to communicate data stories, by collaborating with reporters on choice editorials (D3.js,
+Illustrator).
+
+ACT
+DATA VISUALIZATION INTERN
+Iowa City, IA
+Jun. 2016 - Aug. 2016
+• Synthesized recommendations by analyzing 11 datasets from 4 open and closed sources (Python, Jupyter Notebooks).
+• Increased user engagement by scaling an interactive web visualization platform using predictive models and D3.js.
+
+ACT
+DATA ANALYST INTERN
+Iowa City, IA
+Jun. 2015 - Aug. 2015
+• Identified areas of growth for ACT, by analyzing 2 decades of survey data and performance metrics.
+• Communicated insights to stake holders, by creating interactive Tableau dashboards and static reports, leading to a company decision
+involving 100 people.
+
+Extracurricular
+University Iowa Track & Field
+ATHLETE
+Iowa City, IA
+Aug. 2013 - May 2014
+• Competed for the Hawkeyes in a performance driven environment, walking on after 2 years of running.
+• Recipient of the 2013 Hawkeye Scholar Award.
+
+College of Public Health
+DESKTOP SUPPORT ANALYST
+Iowa City, IA
+July. 2013 - Ongoing
+• Diagnosed and resolved hardware, software problems. Worked with users to extract critical information and provide timely support.
