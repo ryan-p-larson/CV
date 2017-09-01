@@ -1,9 +1,10 @@
 Thumbs.db
-latex/resume.pdf
-imgs/cmpr/
-cover-notes.md
 
-# latex
+# Job specific
+imgs/cmpr/
+jobs/
+
+# latex processing files
 latex/*.aux
 latex/*.fdb_latexmk
 latex/*.fls
@@ -11,3 +12,7 @@ latex/*.log
 latex/*.synctex.gz
 latex/*.xdv
 latex/*.out
+
+# working copies of resume, CL
+latex/resume.pdf
+latex/coverletter.pdf
