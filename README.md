@@ -9,7 +9,7 @@ Take a look at my CV [**here**](https://github.com/ryan-p-larson/CV/raw/master/R
 
 | Repository | Preview |
 |---|---|
-| [International Writer's Program Mapping Project](https://www.github.com/ryan-p-larson/iwp) | <img src="imgs/iwp.png"></img> |
+| [International Writer's Program Mapping Project](https://www.github.com/ryan-p-larson/iwp) | <img src="imgs/iwp.gif"></img> |
 | [College Curriculum Diagram](https://github.com/ryan-p-larson/college-sankey) | <img src="imgs/college.png"></img> |
 | Cartogrid, from [*Understanding the Effect of the Travel Ban on Immigration Tweets in the United States*](https://github.com/ryan-p-larson/gviz) in Political Networks 2017 proceedings. | <img src="imgs/cartogrid.png"></img> |
 | [Geographic Visualization Portfolio](https://geog3540.github.io/ryan-p-larson/) | <img src="imgs/geoviz-portfolio.png"></img> |
