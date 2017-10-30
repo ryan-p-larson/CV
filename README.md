@@ -5,7 +5,7 @@ A repo to house my CV and highlight past projects.
 
 Take a look at my CV [**here**](https://github.com/ryan-p-larson/CV/raw/master/Ryan-Larson-CV.pdf)!
 
-### Previous Work
+### Portfolio
 
 | Repository | Preview |
 |---|---|
