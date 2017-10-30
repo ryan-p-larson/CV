@@ -15,4 +15,5 @@ latex/*.out
 
 # working copies of resume, CL
 latex/resume.pdf
-latex/coverletter.pdf
+latex/coverletter*.pdf
+latex/coverletter*.text
