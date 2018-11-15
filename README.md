@@ -1,11 +1,9 @@
-# Portfolio & CV
-A repo to house my CV and highlight past projects.
+# CV & Projects
+A repo housing my CV and highlighting past projects.
 
-### CV
+*View CV [here](https://github.com/ryan-p-larson/CV/raw/master/Ryan-Larson-CV.pdf).*
 
-Take a look at my CV [**here**](https://github.com/ryan-p-larson/CV/raw/master/Ryan-Larson-CV.pdf)!
-
-### Portfolio
+### Projects
 
 | Repository | Preview |
 |---|---|
