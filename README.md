@@ -7,6 +7,7 @@ A repo housing my CV and highlighting past projects.
 
 | Repository | Preview |
 |---|---|
+| *CarSentoGram: GeoVisual Text Analytics for Exploring Variation in Public Discourse on Twitter* ([demo](https://ryan-p-larson.github.io/paper/), [source](https://github.uiowa.edu/ckoylu/immigration), [publication](https://www.tandfonline.com/doi/full/10.1080/15230406.2018.1510343)). | ![Topic Dashboard](imgs/CarSentoGram-1.png) ![Tweet Data Pipeline](imgs/CarSentoGram-2.png) ![First page of publication](imgs/CarSentoGram-3.png) |
 | Higher Knowledge Graph ([source](https://github.com/ryan-p-larson/higher-knowledge-graph), [demo](https://ryan-p-larson.github.io/higher-knowledge-graph)) | ![Exploring a College Course Graph](imgs/higher-knowledge-graph.gif) |
 | [International Writer's Program Mapping Project](https://www.github.com/ryan-p-larson/iwp) | <img src="imgs/iwp.gif"></img> |
 | [College Curriculum Diagram](https://github.com/ryan-p-larson/college-sankey) | <img src="imgs/college.png"></img> |
