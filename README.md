@@ -1,11 +1,11 @@
-# CV & Projects
-A repo housing my CV and highlighting past projects.
+# Resume & Projects
+A repo housing my resume and highlighting past projects.
 
-*View CV [here](https://github.com/ryan-p-larson/CV/raw/master/Ryan-Larson-CV.pdf).*
+*View resume [here](https://github.com/ryan-p-larson/CV/raw/master/Ryan-Larson-CV.pdf)!*
 
 ### Projects
 
-| Repository | Preview |
+| Project | Preview |
 |---|---|
 | CPHB-Events: An web application for managing events at The College of Public Health. Features include classroom calendars, drag'n'drop floorplan diagrams, and interactive forms. [View live!](https://cphb-events.public-health.uiowa.edu) | ![Furniture diagrams](imgs/CPHB-Events-1.png) ![Room Calendars](imgs/CPHB-Events-2.png) ![Form Example #1](imgs/CPHB-Events-4.png) ![Form Example #2](imgs/CPHB-Events-3.png)|
 | *CarSentoGram: GeoVisual Text Analytics for Exploring Variation in Public Discourse on Twitter* ([demo](https://ryan-p-larson.github.io/paper/), [source](https://github.uiowa.edu/ckoylu/immigration), [publication](https://www.tandfonline.com/doi/full/10.1080/15230406.2018.1510343)). | ![Topic Dashboard](imgs/CarSentoGram-1.png) ![Tweet Data Pipeline](imgs/CarSentoGram-2.png) ![First page of publication](imgs/CarSentoGram-3.png) |
