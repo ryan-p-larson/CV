@@ -1,96 +1,81 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
-% Awesome CV LaTeX Template
-%
-% This template has been downloaded from:
-% https://github.com/posquit0/Awesome-CV
-%
-% Author:
-% Claud D. Park <posquit0.bj@gmail.com>
-% http://www.posquit0.com
-%
-% Template license:
-% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+% Awesome CV LaTeX Template for CV/Resume
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Configuration
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Themes: Awesome-CV
+%---------------------------------------------------------------------------------
+% CONFIGURATIONS
+%---------------------------------------------------------------------------------
+% Paper Size
 \documentclass[11pt, letterpaper]{awesome-cv}
 
 % Configure page margins with geometry
-\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1cm, footskip=.5cm}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=0.5cm}
 
-%%% Override a directory location for fonts(default: 'fonts/')
+% Specify the location of the included fonts
 \fontdir[fonts/]
 
-%%% Configure a directory location for sections
-\newcommand*{\sectiondir}{resume/}
+% Color for highlights
+\colorlet{awesome}{awesome-darknight}
 
-%%% Override color
-% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
-%                 awesome-nephritis, awesome-concrete, awesome-darknight
-%% Color for highlight
-\colorlet{awesome}{darkgray}
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{false}
 
-
-%% Colors for text
-%\definecolor{darktext}{HTML}{414141}
-%\definecolor{text}{HTML}{414141}
-%\definecolor{graytext}{HTML}{414141}
-%\definecolor{lighttext}{HTML}{414141}
-
-%%% Override a separator for social informations in header(default: ' | ')
-%\headersocialsep[\quad\textbar\quad]
+% If you would like to change the social information separator from a pipe (|)
+\renewcommand{\acvHeaderSocialSep}{\altText{\ }{\quad\textbar\quad}}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     3rd party packages
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Needed to divide into several files
-\usepackage{import}
+%---------------------------------------------------------------------------------
+% Change CV skills to left alignment
+%---------------------------------------------------------------------------------
+\renewenvironment{cvskills}{%
+  \vspace{\acvSectionContentTopSkip}
+  \vspace{-2.0mm}
+  \begin{center}
+    \setlength\tabcolsep{1ex}
+    \setlength{\extrarowheight}{0pt}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l L{\textwidth * \real{0.9}}}
+}{%
+    \end{tabular*}
+  \end{center}
+  }
 
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks,
-    linkcolor=blue,
-    urlcolor=blue,
-    linkbordercolor=blue,       % hyperlink borders will be red
-    pdfborderstyle={/S/U/W 1}   % border style will be underline of width 1pt
-}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Personal Data
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Essentials
+%---------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%---------------------------------------------------------------------------------
 \name{Ryan}{Larson}
+\address{Austin, Texas 78704}
 \mobile{(612) 220-2262}
-\email{ryan-p-larson@uiowa.edu}
-%%% Social
+\email{ryalarson11@gmail.com}
 \github{ryan-p-larson}
 \linkedin{ryanpatricklarson}
+\twitter{ryan\textunderscore p\textunderscore larson}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Content
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%---------------------------------------------------------------------------------
+% CV/RESUME HEAD
+%---------------------------------------------------------------------------------
 \begin{document}
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
 
-%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
-%\makecvfooter
-%  {\today}
-%  {Ryan Larson}
-%  {\thepage}
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave blank if not needed :::: \today \thepage
+\makecvfooter
+  {}
+  {Ryan Larson ~ Résumé}
+  {}
 
-%%% Make a header for CV with personal data
-\makecvheader
 
-%%% Import contents
-\import{\sectiondir}{education.tex}
-\import{\sectiondir}{skills.tex}
-\import{\sectiondir}{experience.tex}
-\import{\sectiondir}{extracurricular.tex}
+%---------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%---------------------------------------------------------------------------------
+\input{resume/education.tex}
+\input{resume/experience.tex}
+\input{resume/skills.tex}
+\input{resume/projects.tex}
+
 
 \end{document}
+
