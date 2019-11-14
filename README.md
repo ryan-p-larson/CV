@@ -1,12 +1,13 @@
 # Portfolio
 Repository to house my resume and highlight past projects.
 
-#### [View resume](https://github.com/ryan-p-larson/CV/raw/master/Ryan-Larson-CV.pdf)
+### [View resume](https://github.com/ryan-p-larson/CV/raw/master/Ryan-Larson-CV.pdf)
 
-1. [View resume](https://github.com/ryan-p-larson/CV/raw/master/Ryan-Larson-CV.pdf)
-2. [Academic](#Academic)
-3. [Work](#Work)
-4. [Projects](#Projects)
+1. [Academic](#Academic)
+2. [Work](#Work)
+3. [Projects](#Projects)
+
+<br/>
 
 ### Academic
 
